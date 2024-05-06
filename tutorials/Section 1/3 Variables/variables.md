@@ -1,5 +1,3 @@
-
-
 You’ll learn about Python variables and how to use them effectively.
 
 # Variables Meaning in Programming
@@ -198,7 +196,7 @@ print(z)
 
 ## Output Variables
 
-The Python `print()` function is often used to output variables. As we used this earlier.
+The Python `print()` function is often used to output variablesPython `print()` function is often used to output variable. As we used this earlier.
 
 In the `print()` function, you output multiple variables, separated by a comma:
 
@@ -236,8 +234,6 @@ Recommended: The best way to output multiple variables in the `print()` function
 ## Global Variables
 
 Variables that are created outside of a function are known as global variables.
-
-Global variables can be used by everyone, both inside of functions and outside.
 
 Create a variable outside of a function, and use it inside the function
 
