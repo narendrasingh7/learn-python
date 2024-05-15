@@ -90,3 +90,33 @@ print(details)
 
 # Note: in the result, the line breaks are inserted at the same position as in the code.
 # similarly you can use double qoutes instead of single quotes, result will be same and this is task for you to do it. 
+
+
+
+print("-------------------Strings are Arrays-------------------")
+# in python strings are arrays so they can be accessed by there indices (index value).
+# let's understand 
+# creatin a str variable which is containing string "Python String", by default the index for first character is 0
+
+str = "Python String"
+print(str[0]) # output: P
+print(str[1]) # output: y
+
+# if you use a negative index, Python returns the character starting from the end of the string.
+print(str[-1])  # output: g
+print(str[-2])  # output: n
+
+
+
+print("-------------------Looping Through a String-------------------")
+# now as we know that strings are array so we can we can loop through the characters in a string, with a `for` loop. and iterate its every character.
+# Loop through the letters in the word "banana":
+for x in "banana":
+    print(x)
+
+
+
+print("-------------------Getting the length of a string-------------------")
+# Every string has it's length so we have len() method in python which is used to return the length of string.
+str_len = len(str)
+print(str_len) #output: 13
